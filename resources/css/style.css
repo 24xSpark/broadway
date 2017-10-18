@@ -6,7 +6,7 @@ h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
-  border-bottom: 0px;
+  margin-bottom: 30px;
 }
 h2 {
   font-size: 32px;
@@ -16,13 +16,40 @@ h3 {
   font-size: 23px;
   font-weight: bold;
 }
-p {
-  font-size: 18px;
-  color: white;
-}
 #banner1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
+#banner1 p {
+  font-size: 18px;
+  color: white;
+}
 #philosophy p {
   font-size: 14px;
+  color: black;
+}
+#design {
+  font-size: 23px;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+}
+#footer {
+  font-size: 14px;
+  color: white;
+  overflow-x: auto;
+}
+#copyright {
+  font-size: 11px;
+  color: white;
+  float: left;
+}
+#footnote {
+  background-color: dimgray;
+  overflow: auto;
+  height: 30px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+#business p {
+  font-size: 14px;
+  color: black;
 }
